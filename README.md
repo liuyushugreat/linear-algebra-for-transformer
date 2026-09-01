@@ -101,7 +101,7 @@ flowchart LR
 
 ## 作者
 
-[刘玉书（liuyushugreat）](https://github.com/liuyushugreat)
+[刘玉书（YUSHU LIU）](https://github.com/liuyushugreat)
 
 ## 许可
 
