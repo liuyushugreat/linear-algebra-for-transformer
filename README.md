@@ -43,21 +43,22 @@
 全书分四幕，环环相扣：
 
 ```mermaid
-flowchart LR
+%%{init: {"themeVariables": {"fontSize": "20px"}, "flowchart": {"nodeSpacing": 55, "rankSpacing": 70, "padding": 28}}}%%
+flowchart TB
     subgraph P1["第一幕 · 几何地基"]
-        direction LR
+        direction TB
         A1["第1章 向量与嵌入空间"] --> A2["第2章 矩阵乘法的三种读法"] --> A3["第3章 形状代数"]
     end
     subgraph P2["第二幕 · 注意力机制"]
-        direction LR
+        direction TB
         B1["第4章 线性变换与投影"] --> B2["第5章 内积·范数与打分"] --> B3["第6章 加权平均与凸组合"]
     end
     subgraph P3["第三幕 · 架构的几何"]
-        direction LR
+        direction TB
         C1["第7章 秩与低秩瓶颈"] --> C2["第8章 加法·残差流与高维容量"] --> C3["第9章 归一化的几何"]
     end
     subgraph P4["第四幕 · 进阶与实战"]
-        direction LR
+        direction TB
         D1["第10章 正交·旋转与位置"] --> D2["第11章 升维·非线性与深度"] --> D3["第12章 从零拼出一层"]
     end
     A3 --> B1
